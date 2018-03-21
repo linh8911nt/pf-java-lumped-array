@@ -26,9 +26,9 @@ public class LumpedArray {
             temp = numbers2[j];
             numbers3[numbers1.length + j] = temp;
         }
-        System.out.printf("%-6s%s", "Phần tử trong mảng: ", "");
+        System.out.print("Phần tử trong mảng: ");
         for (int element : numbers3) {
-            System.out.print(numbers3[element - 1] + "\t");
+            System.out.print(element + "\t");
         }
     }
 }
